@@ -1,0 +1,108 @@
+
+.col-1 {width: 8.33%;}
+.col-1 {width: 16.66%;}
+.col-1 {width: 25%;}
+.col-1 {width: 33.33%;}
+.col-1 {width: 41.33%;}
+.col-1 {width: 50%;}
+.col-1 {width: 58.33%;}
+.col-1 {width: 66.66%;}
+.col-1 {width: 75%;}
+.col-1 {width: 83.33%;}
+.col-1 {width: 91.66%;}
+.col-1 {width: 100%;}
+
+
+.navbar{
+	display: flex;
+
+}
+
+.nav-menu a:hover{
+	background-color: gray;
+
+}
+
+.nav-logo{
+	text-align: left;
+	margin-right: auto;
+	display: flex;
+}
+
+.nav-heading h1{
+	text-align: center;
+	flex-direction: row;
+	margin: auto;
+
+
+}
+
+.nav-menu {
+	flex-direction: row;
+	justify-content: flex-end;
+
+
+}
+
+.nav-menu a{
+	padding: 5px 10px;
+	margin: 15px 0px;
+}
+
+.aboutme-desc p{
+	text-align: left;
+
+}
+.aboutme-image img{
+	width: 250px;
+	height: 270px;
+}
+
+
+
+.professional-info{
+	display: flex;
+	text-align: left;
+
+
+}
+.professional-info .card{
+	height: 600px;
+}
+
+.contact-form button{
+	width: 150;
+}
+
+.contact-links{
+	position: relative;
+}
+
+.media-buttons{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* footer starts here */
+
+.footer{
+	display: flex;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+
+}
+.footer-menu{
+	margin: 12px;
+}
+.footer-menu a{
+	display: inline;
+	margin: 15px;
+	padding: 15px;
+}
+
+.footer-dese{
+	display: inline;
+
+}
